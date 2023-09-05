@@ -8,6 +8,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { FooterComponent } from './footer/footer.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { VideosComponent } from './videos/videos.component';
 
 @NgModule({
   imports: [
@@ -22,7 +23,8 @@ import { JumbotronComponent } from './jumbotron/jumbotron.component';
     TopBarComponent,
     ProductListComponent,
     FooterComponent,
-    JumbotronComponent
+    JumbotronComponent,
+    VideosComponent
   ],
   bootstrap: [
     AppComponent
